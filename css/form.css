@@ -1,0 +1,60 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+label {
+    display: center;
+    width: 350px;
+    justify-content: center;
+
+}
+
+affichage {
+    margin-right: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: right;
+}
+
+
+input[type=text],
+input[type=checkbox],
+input[type=date] {
+    /*width : 50px;*/
+    height: 15px;
+
+}
+
+.boutton {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] {
+    margin-left: 10px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+
+/* Modification du mot de passe */
+.centre {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+label.modifmdp {
+    text-align: right;
+    width: 176px;
+    float: left;
+}
+
+.confirm>#confirmer {
+    float: right;
+    margin-right: 10px;
+}

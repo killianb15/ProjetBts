@@ -1,0 +1,28 @@
+.bloc{
+    display: flex;
+    justify-content: center;
+}
+
+
+table
+{
+    border-collapse: collapse;
+}
+table th
+{
+    background-color: lightblue;
+    border: black 2px solid;
+}
+table td
+{
+    border: black 2px solid;
+    padding:10px;
+    text-align :center;
+    
+}
+
+span.alerte {
+    margin-left: 10px;
+    color: red;
+    font-weight: bold;
+}
